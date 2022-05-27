@@ -54,23 +54,22 @@ nav {
   display: flex;
   font-size: 43px;
   line-height: 52px;
-  align-items: Left;
+  align-items: left;
   color: #172b4d;
-  vertical-align: Center;
+  vertical-align: center;
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
 .container p {
-  font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: #344563;
   font-style: normal;
-  align-items: Left;
+  align-items: left;
   vertical-align: top;
 }
 
@@ -103,7 +102,6 @@ nav {
   width: 21px;
   left: 103px;
   top: 472px;
-  border-radius: 0px;
   color: #505f79;
 }
 
