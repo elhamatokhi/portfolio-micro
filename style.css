@@ -135,7 +135,6 @@ nav {
   padding: 15px;
   border-radius: 16px;
   border: 1px solid #dfe1e6;
-  max-width: 327px;
 }
 
 .card--content {
@@ -156,6 +155,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 15px;
+  list-style-type: none;
 }
 
 .item,
@@ -260,6 +260,9 @@ nav {
   gap: 15px;
 }
 
+.items-about li{
+  list-style: none;
+}
 .aboutContent .button-f .btn {
   font-weight: 500;
   padding: 12px;
