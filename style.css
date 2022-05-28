@@ -101,6 +101,10 @@ nav {
   gap: 15px;
 }
 
+.items-about li {
+  list-style: none;
+}
+
 .social-icons ul li {
   list-style: none;
 }
@@ -260,9 +264,6 @@ nav {
   gap: 15px;
 }
 
-.items-about li{
-  list-style: none;
-}
 .aboutContent .button-f .btn {
   font-weight: 500;
   padding: 12px;
