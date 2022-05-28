@@ -108,3 +108,237 @@ nav {
 .social-icons ul li img:hover {
   height: 30px;
 }
+
+/*Work section start*/
+
+#work-section {
+  margin-top: 250px;
+}
+
+._container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.work-content {
+  display: grid;
+  gap: 60px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  max-width: 327px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card--content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card--content .title {
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #172b4d;
+  max-width: 205px;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.item,
+.dot-item {
+  list-style: none;
+}
+
+.dot-item {
+  width: 8px;
+  height: 8px;
+  background-color: #c1c7d0;
+  border-radius: 50%;
+}
+
+.items .item:first-child {
+  color: #344563;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.items .item:nth-child(3),
+.items .item:nth-child(5) {
+  color: #7a869a;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.desc {
+  color: #344563;
+  font-weight: 400;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.lan {
+  list-style: none;
+  color: #6070ff;
+  background-color: #ebebff;
+  padding: 4px 12px 4px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-family: "poppins", sans-serif;
+}
+
+.button-f .btn {
+  font-weight: 500;
+  padding: 12px;
+  font-size: 17px;
+  color: #6070ff;
+  background-color: transparent;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+}
+
+/*Work section end*/
+
+/*About my self section start*/
+
+#AboutmySelf {
+  display: flex;
+  align-items: center;
+  background-color: #ffff;
+  margin-top: 150px;
+  border-radius: 0 80px 0 0;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 430px;
+  margin-top: 100px;
+}
+
+.aboutContent .title {
+  max-width: 200px;
+  font-size: 43px;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.aboutContent .desc {
+  font-size: 16px;
+  color: #344563;
+  max-width: 326px;
+  font-weight: 500;
+  line-height: 24px;
+  font-style: normal;
+}
+
+.aboutContent .title_2 {
+  color: #7f8cff;
+}
+
+.items-about {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.aboutContent .button-f .btn {
+  font-weight: 500;
+  padding: 12px;
+  font-size: 17px;
+  color: #6070ff;
+  background-color: transparent;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/*About my self section end*/
+
+.techs {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+details {
+  font-size: 1rem;
+  background: #ffff;
+  border-radius: 8px;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+summary {
+  user-select: none;
+  list-style: none;
+  padding: 1em;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.summary-up svg {
+  opacity: 0.5;
+}
+
+.summary-up,
+.summary-down {
+  pointer-events: none;
+  position: absolute;
+  top: 0.75em;
+  right: 1em;
+  background: #ffff;
+  display: block;
+}
+
+summary:focus {
+  outline: none;
+}
+
+summary:hover .summary-up svg {
+  opacity: 1;
+}
+
+.tech {
+  cursor: default;
+  padding: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.techh {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #f7f7f9;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.tech__ {
+  color: #253858;
+  font-size: 15px;
+  font-weight: 500;
+}
