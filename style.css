@@ -105,6 +105,11 @@ nav {
   list-style: none;
 }
 
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
 .social-icons ul li img:hover {
   height: 30px;
 }
@@ -131,11 +136,6 @@ nav {
   border-radius: 16px;
   border: 1px solid #dfe1e6;
   max-width: 327px;
-}
-
-.card img {
-  width: 100%;
-  border-radius: 8px;
 }
 
 .card--content {
@@ -214,9 +214,9 @@ nav {
   border-radius: 8px;
 }
 
-/*Work section end*/
+/* Work section end */
 
-/*About my self section start*/
+/* About my self section start */
 
 #AboutmySelf {
   display: flex;
@@ -271,7 +271,7 @@ nav {
   margin-top: 10px;
 }
 
-/*About my self section end*/
+/* About my self section end */
 
 .techs {
   margin-top: 20px;
