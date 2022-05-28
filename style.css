@@ -43,6 +43,7 @@ nav {
   border-radius: 0px  0px 0px 90px;
   z-index: -999;
 }
+
 .mylogo a {
   font-style: bold;
   font-weight: 700;
@@ -54,10 +55,12 @@ nav {
   line-height: 20px;
   text-decoration: none;
 }
+
 .mainContainer {
   max-width: 90%;
   margin: 0 auto;
 }
+
 .container {
   background-size: 100%;
   display: flex;
