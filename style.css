@@ -427,3 +427,7 @@ summary:hover .summary-up svg {
   color: #6070ff;
   border: 1px solid #cfd8dc;
 }
+button:hover {
+  background-color: #6070ff;
+  color: white;
+}
