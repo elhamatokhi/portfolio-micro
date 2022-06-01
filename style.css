@@ -371,6 +371,12 @@ summary:hover .summary-up svg {
   margin-top: 103px;
 }
 
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .secondContainer h1 {
   font-weight: 700px;
   font-size: 43px;
