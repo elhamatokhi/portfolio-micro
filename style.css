@@ -432,14 +432,14 @@ button:hover {
   color: #fff;
 }
 
-.shape{
+.shape {
   display: flex;
   align-items: center;
   justify-content: column;
   height: 5px;
   width: 134px;
   border-radius: 10px;
-  background-color: #0D151E;
-  top:20px;
+  background-color: #0d151e;
+  top: 20px;
   margin: auto;
 }
