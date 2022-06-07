@@ -14,6 +14,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px;
 }
 
@@ -22,6 +23,20 @@ nav {
   text-align: right;
 }
 
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #344563;
+}
 .mylogo {
   width: 76px;
   height: 20px;
@@ -443,3 +458,88 @@ button:hover {
   top: 20px;
   margin: auto;
 }
+
+
+/* Desktop version */
+
+@media (min-width:768px){
+
+  nav img {
+    display:none;
+  }
+  
+  .header {
+    display: flex;
+  }
+  
+  .container {
+    justify-content: center;
+    flex-basis: 200px; 
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .container h1 {
+    align-self: flex-start;
+  }
+  
+  .mainContainer {
+    max-width: 90%;
+    margin: 0 260px;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  
+  }
+  
+  .card1 img {
+  order: -1;
+  max-width: 544px;
+  left: 24px;
+  top: 24px;
+  border-radius: 8px;
+  }
+  
+  .card2 img {
+    order: 1;
+    max-width: 544px;
+    left: 24px;
+    top: 24px;
+    border-radius: 8px;
+  }
+  
+  .card--content {
+    max-width: 544px;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    flex-basis: 200px; 
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card--content h1 {
+    align-self: flex-start;
+  }
+  
+  
+  /* 
+  .card img {
+    width:500px;
+  } */
+  
+  
+  
+  }
+  
+  
+  @media (max-width:767px) {
+    nav ul{
+      display:none;
+    }
+  }
