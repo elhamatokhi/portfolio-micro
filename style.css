@@ -480,7 +480,7 @@ button:hover {
   .container h1 {
     align-self: flex-start;
   }
-      
+
   .card {
     display: flex;
     align-items: center;
@@ -511,7 +511,7 @@ button:hover {
     align-content: center;
     flex-wrap: wrap;
     flex-grow: 1;
-    gap: 30px;   
+    gap: 30px;
     padding: 24px;
   }
 
@@ -583,11 +583,10 @@ button:hover {
   .form-group {
     border-radius: 0;
   }
-
 }
 
 @media (max-width: 767px) {
-  nav ul{
+  nav ul {
     display: none;
   }
 }
