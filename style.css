@@ -93,7 +93,7 @@ a {
 
 .container p {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: 24px;
   text-align: left;
   color: #344563;
@@ -102,8 +102,7 @@ a {
 .container h3 {
   color: #7f8cff;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
+  font-weight: 500px;
   line-height: 24px;
   margin-bottom: 24px;
 }
@@ -250,6 +249,7 @@ a {
   justify-content: space-between;
   height: 430px;
   margin-top: 100px;
+  gap:20px;
 }
 
 .aboutContent .title {
@@ -260,12 +260,9 @@ a {
 }
 
 .aboutContent .desc {
-  font-size: 16px;
-  color: #344563;
-  max-width: 326px;
-  font-weight: 500;
-  line-height: 24px;
-  font-style: normal;
+  height: 102px;
+  width: 447px;
+  top: 126px;
 }
 
 .aboutContent .title_2 {
@@ -275,7 +272,7 @@ a {
 .items-about {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
 }
 
 .aboutContent .button-f .btn {
@@ -416,9 +413,7 @@ summary:hover .summary-up svg {
 .form-controler {
   height: 48px;
   width: 327px;
-  left: 0;
-  top: 0;
-  border-radius: 8px;
+  border-radius: none;
   border: 1px solid #cfd8dc;
   padding: 15px 38px 15px 16px;
 }
@@ -426,9 +421,7 @@ summary:hover .summary-up svg {
 .input-textarea {
   height: 170px;
   width: 327px;
-  left: 0;
-  top: 0;
-  border-radius: 8px;
+  border-radius: none;
   padding: 15px 38px 15px 16px;
   resize: none;
 }
@@ -442,6 +435,10 @@ summary:hover .summary-up svg {
   border: 1px solid #cfd8dc;
 }
 
+.form-group {
+  align-items: center;
+  margin: 0 auto;
+}
 button:hover {
   background-color: #6070ff;
   color: #fff;
@@ -459,7 +456,6 @@ button:hover {
   margin: auto;
 }
 
-
 /* Desktop version */
 
 @media (min-width:768px){
@@ -472,71 +468,123 @@ button:hover {
     display: flex;
   }
   
-  .container {
+   .container {
+     display: flex;
     justify-content: center;
-    flex-basis: 200px; 
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
-  }
+  } 
   
   .container h1 {
     align-self: flex-start;
   }
-  
-  .mainContainer {
-    max-width: 90%;
-    margin: 0 260px;
-  }
-  
+    
   .card {
     display: flex;
     align-items: center;
     width: 100%;
-  
-  }
-  
-  .card1 img {
-  order: -1;
-  max-width: 544px;
-  left: 24px;
-  top: 24px;
-  border-radius: 8px;
+    padding: 24px 22px 24px 24px;
   }
   
   .card2 img {
-    order: 1;
     max-width: 544px;
-    left: 24px;
-    top: 24px;
+    height: 448px;
     border-radius: 8px;
+    order:1;
+  }
+  
+  .card1 img {
+    max-width: 544px;
+    border-radius: 8px;
+    height: 448px;
+    order:-1;
   }
   
   .card--content {
+    height: 465px;
     max-width: 544px;
-    margin-right: 20px;
-    margin-left: 20px;
-    justify-content: center;
-    flex-basis: 200px; 
+    display: flex;
+    justify-content: flex-start;
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
+    flex-grow:1;
+    gap:30px;   
+    padding:24px;
   }
-  
-  .card--content h1 {
+   
+  .card--content .title {
     align-self: flex-start;
+    font-size: 40px;
   }
   
-  
-  /* 
-  .card img {
-    width:500px;
-  } */
-  
-  
-  
+  #AboutmySelf {
+    padding: 142px;
+  }
+
+  ._container {
+    display: flex;
+    justify-content: center;
+    flex:1;
+  }
+
+  .aboutContent {
+    height: 392px;
+    width: 447px;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .techsContent {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: column;
+  }
+
+  .tech {
+    display: flex;
+    gap: 20px;
   }
   
+.techh {
+    display: flex;
+    height: 120px;
+    width: 122px;
+    border-radius: 8px;
+    flex-direction: column;
+  }
+
+  .techs {
+    height: 360px;
+    width: 684px;
+  }
+
+  .secondContainer {
+    align-items: center;
+    height: 102px;
+    width: 569px;
+
+  }
+
+  .contact-form {
+    gap:60px;
+  }
+
+  .secondContainer p {
+    text-align: center;
+  }
+  
+  .shape {
+    display: none;
+  }
+
+  .form-group {
+    border-radius: 0;
+  }
+
+}
   
   @media (max-width:767px) {
     nav ul{
