@@ -28,7 +28,7 @@ nav ul {
   list-style-type: none;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
@@ -37,6 +37,7 @@ a {
   text-decoration: none;
   color: #344563;
 }
+
 .mylogo {
   width: 76px;
   height: 20px;
@@ -460,132 +461,132 @@ button:hover {
 
 @media (min-width:768px){
 
-  nav img {
-    display:none;
-  }
+nav img {
+  display:none;
+}
+
+.header {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+} 
   
-  .header {
-    display: flex;
-  }
-  
-   .container {
-     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-  } 
-  
-  .container h1 {
-    align-self: flex-start;
-  }
+.container h1 {
+  align-self: flex-start;
+}
     
-  .card {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 24px 22px 24px 24px;
-  }
-  
-  .card2 img {
-    max-width: 544px;
-    height: 448px;
-    border-radius: 8px;
-    order:1;
-  }
-  
-  .card1 img {
-    max-width: 544px;
-    border-radius: 8px;
-    height: 448px;
-    order:-1;
-  }
-  
-  .card--content {
-    height: 465px;
-    max-width: 544px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-grow:1;
-    gap:30px;   
-    padding:24px;
-  }
-   
-  .card--content .title {
-    align-self: flex-start;
-    font-size: 40px;
-  }
-  
-  #AboutmySelf {
-    padding: 142px;
-  }
-
-  ._container {
-    display: flex;
-    justify-content: center;
-    flex:1;
-  }
-
-  .aboutContent {
-    height: 392px;
-    width: 447px;
-    justify-content: center;
-    margin-top: 0;
-  }
-
-  .techsContent {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-    flex-direction: column;
-  }
-
-  .tech {
-    display: flex;
-    gap: 20px;
-  }
-  
-.techh {
-    display: flex;
-    height: 120px;
-    width: 122px;
-    border-radius: 8px;
-    flex-direction: column;
-  }
-
-  .techs {
-    height: 360px;
-    width: 684px;
-  }
-
-  .secondContainer {
-    align-items: center;
-    height: 102px;
-    width: 569px;
-
-  }
-
-  .contact-form {
-    gap:60px;
-  }
-
-  .secondContainer p {
-    text-align: center;
-  }
-  
-  .shape {
-    display: none;
-  }
-
-  .form-group {
-    border-radius: 0;
-  }
-
+.card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 24px 22px 24px 24px;
 }
   
+.card2 img {
+  max-width: 544px;
+  height: 448px;
+  border-radius: 8px;
+  order:1;
+}
+  
+.card1 img {
+  max-width: 544px;
+  border-radius: 8px;
+  height: 448px;
+  order:-1;
+}
+  
+.card--content {
+  height: 465px;
+  max-width: 544px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-grow:1;
+  gap:30px;   
+  padding:24px;
+}
+   
+.card--content .title {
+  align-self: flex-start;
+  font-size: 40px;
+}
+  
+#AboutmySelf {
+  padding: 142px;
+}
+
+._container {
+  display: flex;
+  justify-content: center;
+  flex:1;
+}
+
+.aboutContent {
+  height: 392px;
+  width: 447px;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.techsContent {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  flex-direction: column;
+}
+
+.tech {
+  display: flex;
+  gap: 20px;
+}
+
+.techh {
+  display: flex;
+  height: 120px;
+  width: 122px;
+  border-radius: 8px;
+  flex-direction: column;
+}
+
+.techs {
+  height: 360px;
+  width: 684px;
+}
+
+.secondContainer {
+  align-items: center;
+  height: 102px;
+  width: 569px;
+
+}
+
+.contact-form {
+  gap:60px;
+}
+
+.secondContainer p {
+  text-align: center;
+}
+
+.shape {
+  display: none;
+}
+
+.form-group {
+  border-radius: 0;
+}
+
+}
+
   @media (max-width:767px) {
     nav ul{
       display:none;
