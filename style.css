@@ -80,7 +80,7 @@ a {
   background-size: 100%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
   margin-top: 100px;
 }
 
@@ -105,7 +105,6 @@ a {
   font-size: 16px;
   font-weight: 500px;
   line-height: 24px;
-  margin-bottom: 24px;
 }
 
 .social-icons ul {
@@ -230,6 +229,16 @@ a {
   background-color: transparent;
   border: 1px solid #6070ff;
   border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.button-f .btn:hover {
+  background-color: #6070ff;
+  color: #ffff;
+}
+
+.button-f .btn:active {
+  background-color: #2230d2;
 }
 
 /* Work section end */
@@ -262,7 +271,6 @@ a {
 
 .aboutContent .desc {
   height: 102px;
-  width: 447px;
   top: 126px;
 }
 
@@ -285,6 +293,15 @@ a {
   border: 1px solid #6070ff;
   border-radius: 8px;
   margin-top: 10px;
+}
+
+.aboutContent .button-f .btn:hover {
+  background-color: #6070ff;
+  color: #ffff;
+}
+
+.aboutContent .button-f .btn:active {
+  background-color: #2230d2;
 }
 
 /* About my self section end */
@@ -368,8 +385,8 @@ summary:hover .summary-up svg {
   background-color: #6070ff;
   background-image: url("Images/contact\ form\ shapes-mobile@2x.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 50px;
+  background-size: contain;
+  background-position: right;
   border-radius: 90px 0 0 0;
   z-index: -999;
 }
@@ -427,6 +444,12 @@ summary:hover .summary-up svg {
   resize: none;
 }
 
+.contactContainer {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+
 .submit-button {
   height: 48px;
   width: 140px;
@@ -461,24 +484,30 @@ button:hover {
 /* Desktop version */
 
 @media (min-width: 768px) {
-  nav img {
-    display: none;
+  .contact-background {
+    background-image: url(Images/contact\ form\ background\ shapes.svg);
+    background-size: auto;
+    background-position: center;
   }
 
-  .header {
-    display: flex;
+  .background--c {
+    background-image: url(Images/Header\ bg.svg);
+    background-size: auto;
+    background-position: center;
+    height: 916px;
   }
 
-  .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    flex-wrap: wrap;
+  .navbar {
+    padding: 40px 40px 0 40px;
+  }
+  .aboutContent .desc {
+    height: 102px;
+    width: 447px;
+    top: 126px;
   }
 
-  .container h1 {
-    align-self: flex-start;
+  .work-content {
+    margin-top: 200px;
   }
 
   .card {
@@ -582,6 +611,20 @@ button:hover {
 
   .form-group {
     border-radius: 0;
+  }
+
+  .contactContainer {
+    max-width: 1156px;
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 150px auto;
+  }
+
+  .icon img {
+    display: none;
   }
 }
 
