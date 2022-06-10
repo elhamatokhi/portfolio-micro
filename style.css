@@ -629,7 +629,7 @@ button:hover {
   }
 
   @keyframes h3 {
-    0% { transform: translate(8px);}
+    0% { transform: translate(8px); }
     50% { transform: translate(20px); }
     100% { transform: translate(30px); }
   }
