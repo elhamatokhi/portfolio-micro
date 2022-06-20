@@ -5,6 +5,10 @@ portfolio-micro
 
 This is my portfolio that describes me and what I can do like build products for the WEB, features, and websites. Look through some of my work and experience! If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.
 
+## 🖥️ Live Demo
+
+[My Portfolio](https://elhamatokhi.github.io/portfolio-micro/)
+
 ## Built With
 HTML
 CSS
