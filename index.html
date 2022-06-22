@@ -6,6 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
+    <script src="menu.js" defer></script>
+    <script src="script.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika&family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@200;300;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Ubuntu:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body>
     <div class="background--c"></div>
@@ -13,295 +27,302 @@
       <div class="mylogo">
         <a href="#">Elhama Tokhi</a>
       </div>
-      <nav class="icon">
-        <img src="Images/Union.png" alt="Menu-icon" />
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="navMobile">
         <ul>
-          <li><a href="#" >Contact</a></li>
-          <li><a href="#" >About</a></li>
-          <li><a href="#" >Portfolio</a></li>
-        </ul>   
-      </nav>
-    </header>
-  <div class="mainContainer">
-    <section class="container">
-      <h1>I'm Elhama Tokhi Glad to see you!</h1>
-      <p>
-        I’m a software developer! I can help you build a product , feature or
-        website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don’t hestiate to contact me.
-      </p>
-      <h3>LET'S CONNECT</h3>
-
-      <div class="social-icons">
-        <ul>
-          <li>
-            <a href=""
-              ><img src="Images/Social/github.svg" class="github" alt=""
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="Images/Social/Linkedin.svg" class="linkedin" alt=""
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="Images/Social/mail.svg" class="mail" alt=""
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="Images/Social/other.svg" class="other" alt=""
-            /></a>
-          </li>
-          <li>
-            <a href=""
-              ><img src="Images/Social/twitter.svg" class="twitter" alt=""
-            /></a>
-          </li>
+          <li class="link"><a href="#Contact">Contact</a></li>
+          <li class="link"><a href="#AboutmySelf">About</a></li>
+          <li class="link"><a href="#work-section">Portfolio</a></li>
         </ul>
       </div>
-    </section>
-  </div>
+      <nav class="icon">
+        <ul>
+          <li class="link"><a href="#Contact">Contact</a></li>
+          <li class="link"><a href="#AboutmySelf">About</a></li>
+          <li class="link"><a href="#work-section">Portfolio</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="mainContainer">
+      <section class="container">
+        <h1>I'm Elhama Tokhi Glad to see you!</h1>
+        <p>
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.
+        </p>
+        <h3>LET'S CONNECT</h3>
 
-      <!--Work section start-->
-      
-      <section id="work-section">
-        <div class="_container">
-          <div class="work-content">
-            <!--card section 1-->
-              <div class="card card1">
-                <img src="Images/p1.PNG" alt="picture 1"/>
-                <div class="card--content">
-                  <h2 class="title">Tonic</h2>
-                  <ul class="items">
-                    <li class="item"><span>CANOPY</span></li>
-                    <li class="dot-item"><span></span></li>
-                    <li class="item"><span>Back End Dev</span></li>
-                    <li class="dot-item"><span></span></li>
-                    <li class="item"><span>2015</span></li>
-                  </ul>
-                  <p class="desc">
-                    A daily selection of privately personalized reads; no accounts
-                    or sign-ups required.
-                  </p>
-                  <div class="lang-elment">
-                    <ul class="lang">
-                      <li class="lan"><span>html</span></li>
-                      <li class="lan"><span>css</span></li>
-                      <li class="lan"><span>javaScript</span></li>
-                    </ul>
-                  </div>
-                  <div class="button-f">
-                    <button class="btn" type="button">See Project</button>
-                  </div>
-                </div>
-              </div>
-            <!--End card section 1-->
-
-            <!--card section 1-->
-            <div class="card card2">
-              <img src="Images/p2.PNG" alt="picture 1"/>
-              <div class="card--content">
-                <h2 class="title">Tonic</h2>
-                <ul class="items">
-                  <li class="item"><span>CANOPY</span></li>
-                  <li class="dot-item"><span></span></li>
-                  <li class="item"><span>Back End Dev</span></li>
-                  <li class="dot-item"><span></span></li>
-                  <li class="item"><span>2015</span></li>
-                </ul>
-                <p class="desc">
-                  A daily selection of privately personalized reads; no accounts
-                  or sign-ups required.
-                </p>
-                <div class="lang-elment">
-                  <ul class="lang">
-                    <li class="lan"><span>html</span></li>
-                    <li class="lan"><span>css</span></li>
-                    <li class="lan"><span>javaScript</span></li>
-                  </ul>
-                </div>
-                <div class="button-f">
-                  <button class="btn" type="button">See Project</button>
-                </div>
-              </div>
-            </div>
-          <!--End card section 1-->
-
-          <!--card section 1-->
-          <div class="card card1">
-            <img src="Images/p3.PNG" alt="picture 1"/>
-            <div class="card--content">
-              <h2 class="title">Tonic</h2>
-              <ul class="items">
-                <li class="item"><span>CANOPY</span></li>
-                <li class="dot-item"><span></span></li>
-                <li class="item"><span>Back End Dev</span></li>
-                <li class="dot-item"><span></span></li>
-                <li class="item"><span>2015</span></li>
-              </ul>
-              <p class="desc">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <div class="lang-elment">
-                <ul class="lang">
-                  <li class="lan"><span>html</span></li>
-                  <li class="lan"><span>css</span></li>
-                  <li class="lan"><span>javaScript</span></li>
-                </ul>
-              </div>
-              <div class="button-f">
-                <button class="btn" type="button">See Project</button>
-              </div>
-            </div>
-          </div>
-        <!--End card section 1-->
-
-        <!--card section 1-->
-        <div class="card card2">
-          <img src="Images/p4.PNG" alt="picture 1"/>
-            <div class="card--content">
-                  <h2 class="title">Tonic</h2>
-                  <ul class="items">
-                    <li class="item"><span>CANOPY</span></li>
-                    <li class="dot-item"><span></span></li>
-                    <li class="item"><span>Back End Dev</span></li>
-                    <li class="dot-item"><span></span></li>
-                    <li class="item"><span>2015</span></li>
-                  </ul>
-                  <p class="desc">
-                    A daily selection of privately personalized reads; no accounts
-                    or sign-ups required.
-                  </p>
-                  <div class="lang-elment">
-                    <ul class="lang">
-                      <li class="lan"><span>html</span></li>
-                      <li class="lan"><span>css</span></li>
-                      <li class="lan"><span>javaScript</span></li>
-                    </ul>
-                  </div>
-                  <div class="button-f">
-                    <button class="btn" type="button">See Project</button>
-                  </div>
-                </div>
-        </div>
-      <!--End card section 1-->
-          </div>
+        <div class="social-icons">
+          <ul>
+            <li>
+              <a href=""
+                ><img src="Images/Social/github.svg" class="github" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="Images/Social/Linkedin.svg" class="linkedin" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="Images/Social/mail.svg" class="mail" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="Images/Social/other.svg" class="other" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href=""
+                ><img src="Images/Social/twitter.svg" class="twitter" alt=""
+              /></a>
+            </li>
+          </ul>
         </div>
       </section>
-      <!--About my self section end-->
-        <section id="AboutmySelf">
-          <div class="_container">
-            <div class="aboutContent">
-              <h1 class="title">About Myself</h1>
-              <p class="desc">
-                I'm a software developer! I can help you build a product ,feature or
-                website. Look through some of my work and experience! if you like
-                what you see and have a project you need coded, don't hesitate to
-                contact me.
-              </p>
-              <p class="title_2">LET'S CONNECT</p>
-              <ul class="items-about">
-                <li>
-                  <img src="Images/Social/github.svg" class="github" alt=""
-                  />
-                </li>
-                <li>
-                <img src="Images/Social/Linkedin.svg" class="linkedin" alt=""
-                  />
-                </li>
-                <li>
-                <img src="Images/Social/mail.svg" class="mail" alt=""
-                  />
-                </li>
-                <li>
-                  <img src="Images/Social/other.svg" class="other" alt=""
-                  />
-                </li>
-                <li>
-                  <img src="Images/Social/twitter.svg" class="twitter" alt=""
-                  />
-                </li>
-              </ul>
-              <div class="button-f">
-                <button class="btn" type="button">Get my resume</button>
-              </div>
-          </div>
+    </div>
 
-     <!--********************************************************-->
-          <div class="techs">
-            <div class="techsContent">
-              <details>
-                <summary>Languages
-                  <label class="summary-up">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                  </label>
-                </summary>
-                <ul class="tech">
-                  <li class="techh">
-                    <img src="Images/Javascript.svg" alt="" />
-                    <span class="tech__">JavaScript</span>
-                  </li>
-                  <li class="techh">
-                    <img src="Images/html.svg" alt="" />
-                    <span class="tech__">HTML</span>
-                  </li>
-                  <li class="techh">
-                    <img src="Images/css.png" alt="" />
-                    <span class="tech__">css</span>
-                  </li>
-                </ul>
-                <div class="summary-down">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-                </div>
-              </details>
-              <details>
-                <summary>FrameWorks
+    <section class="works"></section>
 
-                  <label class="summary-up">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                  </label>
-                </summary>
-                <div class="summary-down">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-                </div>
-              </details>
-              <details>
-                <summary>Skills
+    <section class="modal-container">
+      <ul class="works-modal">
+        <li>
+          <div class="project-header">
+            <div class="modal-title-container">
+              <h1 class="project-title"></h1>
 
-                  <label class="summary-up">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                  </label>
-                </summary>
-                <div class="summary-down">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-up"><polyline points="18 15 12 9 6 15"></polyline></svg>
-                  </div>
-              </details>
+              <i class="fas fa-times modal-close-button"></i>
+            </div>
+            <div class="project-info">
+              <h2 class="project-info-title"></h2>
+              <img class="dottt" src="#" alt="dot" />
+              <p class="project-info-item"></p>
+              <img class="dottt" src="#" alt="dot" />
+              <p class="project-info-item"></p>
             </div>
           </div>
-             <!--********************************************************-->
-
+        </li>
+        <li class="project-img-wrapper">
+          <img src="#" alt="" class="Project-img" />
+        </li>
+        <li class="modal-body">
+          <p class="project-description"></p>
+          <ul class="tags">
+            <li class="tag-item"></li>
+            <li class="tag-item"></li>
+            <li class="tag-item"></li>
+          </ul>
+          <div class="divider"></div>
+          <div class="action-container">
+            <button class="action-btn see-live" type="button">
+              See Live
+              <img src="./Images/Icon.png" alt="" /></button
+            ><button class="action-btn see-source" type="button">
+              See Source
+              <img src="./Images/git.png" alt="" />
+            </button>
           </div>
-        </section>
-      <!--About my self section end-->
-
-      <!--Contact me section -->
-        <div class="contact-background"></div>
-     <div class="contactContainer contact-form">
-        <section class="secondContainer">
-          <h1>Contact me</h1>
-          <p>
-            If you have an application you are interested in developing,
-            a feature that you need built or a project that needs coding.
-             I’d love to help with it 
+        </li>
+      </ul>
+    </section>
+    <!--About my self section end-->
+    <section id="AboutmySelf">
+      <div class="_container">
+        <div class="aboutContent">
+          <h1 class="title">About Myself</h1>
+          <p class="desc">
+            I'm a software developer! I can help you build a product ,feature or
+            website. Look through some of my work and experience! if you like
+            what you see and have a project you need coded, don't hesitate to
+            contact me.
           </p>
-        </section>
-        <div class="form-container">
-          <form action="https://formspree.io/f/mgedpajj" method="post" class="form">
-            <div class="form-group">
-              <input
+          <p class="title_2">LET'S CONNECT</p>
+          <ul class="items-about">
+            <li>
+              <img src="Images/Social/github.svg" class="github" alt="" />
+            </li>
+            <li>
+              <img src="Images/Social/Linkedin.svg" class="linkedin" alt="" />
+            </li>
+            <li>
+              <img src="Images/Social/mail.svg" class="mail" alt="" />
+            </li>
+            <li>
+              <img src="Images/Social/other.svg" class="other" alt="" />
+            </li>
+            <li>
+              <img src="Images/Social/twitter.svg" class="twitter" alt="" />
+            </li>
+          </ul>
+          <div class="button-f">
+            <button class="btn" type="button">Get my resume</button>
+          </div>
+        </div>
+
+        <!--********************************************************-->
+        <div class="techs">
+          <div class="techsContent">
+            <details>
+              <summary>
+                Languages
+                <label class="summary-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-chevron-down"
+                  >
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </label>
+              </summary>
+              <ul class="tech">
+                <li class="techh">
+                  <img src="Images/Javascript.svg" alt="" />
+                  <span class="tech__">JavaScript</span>
+                </li>
+                <li class="techh">
+                  <img src="Images/html.svg" alt="" />
+                  <span class="tech__">HTML</span>
+                </li>
+                <li class="techh">
+                  <img src="Images/css.png" alt="" />
+                  <span class="tech__">css</span>
+                </li>
+              </ul>
+              <div class="summary-down">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-chevron-up"
+                >
+                  <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+              </div>
+            </details>
+            <details>
+              <summary>
+                FrameWorks
+
+                <label class="summary-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-chevron-down"
+                  >
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </label>
+              </summary>
+              <div class="summary-down">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-chevron-up"
+                >
+                  <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+              </div>
+            </details>
+            <details>
+              <summary>
+                Skills
+
+                <label class="summary-up">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-chevron-down"
+                  >
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </label>
+              </summary>
+              <div class="summary-down">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-chevron-up"
+                >
+                  <polyline points="18 15 12 9 6 15"></polyline>
+                </svg>
+              </div>
+            </details>
+          </div>
+        </div>
+        <!--********************************************************-->
+      </div>
+    </section>
+    <!--About my self section end-->
+
+    <!--Contact me section -->
+    <div class="contact-background"></div>
+    <div class="contactContainer contact-form" id="Contact">
+      <section class="secondContainer">
+        <h1>Contact me</h1>
+        <p>
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it
+        </p>
+      </section>
+      <div class="form-container">
+        <form
+          action="https://formspree.io/f/mgedpajj"
+          method="post"
+          class="form"
+        >
+          <div class="form-group">
+            <input
               type="text"
               name="name"
               id="name"
@@ -309,38 +330,38 @@
               maxlength="30"
               placeholder="Please enter your name"
               required
-              />
-            </div>
-            <div class="form-group">
-              <input
+            />
+          </div>
+          <div class="form-group">
+            <input
               type="email"
               name="email"
               id="email"
               class="form-controler"
               placeholder="Please enter your Email"
               required
-              />
-            </div>
-            <div class="form-group">
-              <textarea
+            />
+          </div>
+          <div class="form-group">
+            <textarea
               id="message"
               class="input-textarea"
               name="message"
               maxlength="500"
               placeholder="Enter your message here"
-              required></textarea>
-            </div>
-            <div class="form-group">
-              <button type="submit" id="submit" class="submit-button">Get it touch</button>
-            </div>
-         </form>
-        </div>
-      <div class="shape">
-     </div>
-  </div>
-  <!-- End ofContact me section -->
-
+              required
+            ></textarea>
+          </div>
+          <small></small>
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">
+              Get it touch
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="shape"></div>
+    </div>
+    <!-- End ofContact me section -->
   </body>
 </html>
-
- 
