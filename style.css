@@ -31,6 +31,46 @@ body {
   z-index: 888;
 }
 
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #344563;
+}
+
+.mylogo {
+  width: 76px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.mylogo a {
+  font-style: bold;
+  font-weight: 700;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  color: #6070ff;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
 .navMobile {
   position: fixed;
   width: 100%;
@@ -68,34 +108,6 @@ body {
   padding: 20px;
 }
 
-nav {
-  flex: 1;
-  text-align: right;
-}
-
-nav ul {
-  display: inline-block;
-  list-style-type: none;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: #344563;
-}
-
-.mylogo {
-  width: 76px;
-  height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-
 .background--c {
   position: absolute;
   width: 100%;
@@ -107,18 +119,6 @@ a {
   background-position: 0 50px;
   border-radius: 0 0 0 90px;
   z-index: -999;
-}
-
-.mylogo a {
-  font-style: bold;
-  font-weight: 700;
-  align-items: center;
-  text-align: center;
-  display: flex;
-  color: #6070ff;
-  font-size: 18px;
-  line-height: 20px;
-  text-decoration: none;
 }
 
 .mainContainer {
@@ -550,6 +550,7 @@ button:hover {
   .hamburger {
     display: none;
   }
+
   .navbar {
     padding: 40px 40px 0 40px;
   }
@@ -685,9 +686,11 @@ button:hover {
     0% {
       transform: translate(8px);
     }
+
     50% {
       transform: translate(20px);
     }
+
     100% {
       transform: translate(30px);
     }
@@ -706,6 +709,7 @@ button:hover {
     from {
       transform: rotate(90deg);
     }
+
     to {
       transform: rotate(0deg);
     }
