@@ -166,6 +166,7 @@ a {
   text-align: left;
   color: #344563;
 }
+
 /* Works Section */
 .works {
   display: grid;
@@ -784,6 +785,7 @@ button:hover {
     width: 447px;
     top: 126px;
   }
+
   /* Desktop works card Section */
   .project-card {
     flex-direction: row;
