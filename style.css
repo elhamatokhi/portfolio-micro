@@ -101,6 +101,23 @@ a {
   font-size: 30px;
 }
 
+.hamburger.active .line {
+  background-color: #ffff;
+  transition: all 0.5s ease-in-out;
+}
+
+.hamburger.active .line:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .line:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .line:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
