@@ -16,7 +16,7 @@ CSS
 ### Setup
 1. Download the **Zip** file or clone the repo with:
 ```bash
-git clone https://github.com/tresorsawasawa/MyPortfolio.git
+git clone https://github.com/elhamatokhi/portfolio-micro.git
 ```
 3. To access cloned directory run:
 ```bash
