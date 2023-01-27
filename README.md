@@ -1,6 +1,8 @@
 # Project Name
 portfolio-micro
 
+![screencapture-elhamatokhi-github-io-portfolio-micro-2023-01-27-19_06_09](https://user-images.githubusercontent.com/101942323/215112748-8caeac8a-92c1-4597-b0c6-2f0386d726d1.png)
+
 ## Description
 
 This is my portfolio that describes me and what I can do like build products for the WEB, features, and websites. Look through some of my work and experience! If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it.
